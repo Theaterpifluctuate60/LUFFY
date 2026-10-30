@@ -98,12 +98,12 @@ LUFFY/
 - [ ] **luffy/verl/verl/mix_src/mix_trainer_acc_rebatch.py:437** - make a canonical logger that supports various backend
 - [ ] **luffy/verl/verl/mix_src/mix_trainer_acc_rebatch.py:592** - checkpoint_folder = self.config.trainer.default_local_dir  # TODO: check path
 - [ ] **luffy/verl/verl/mix_src/mix_trainer_acc_rebatch.py:628** - from remote not implemented yet
-- [ ] **luffy/verl/verl/mix_src/mix_vllm_rollout.py:43** - 
+- [ ] **luffy/verl/verl/mix_src/mix_vllm_rollout.py:43** - Support PP in vLLM, simplify init logics
 - [ ] **luffy/verl/verl/models/llama/megatron/layers/parallel_attention.py:380** - llama does not have dropout in the config??
 - [ ] **luffy/verl/verl/models/llama/megatron/layers/parallel_decoder.py:78** - add sequence parallel operator reduce_scatter here
 - [ ] **luffy/verl/verl/models/llama/megatron/layers/parallel_decoder.py:86** - add sequence parallel operator all_gather here
 - [ ] **luffy/verl/verl/models/llama/megatron/layers/parallel_decoder.py:90** - add sequence parallel operator reduce_scatter here
-- [ ] **luffy/verl/verl/models/llama/megatron/modeling_llama_megatron.py:37** - 
+- [ ] **luffy/verl/verl/models/llama/megatron/modeling_llama_megatron.py:37** - (TODO see file for details)
 - [ ] **luffy/verl/verl/models/llama/megatron/modeling_llama_megatron.py:330** - for better performance, the sp padding should be removed at each layer. Not sure the performance gap
 - [ ] **luffy/verl/verl/models/llama/megatron/modeling_llama_megatron.py:588** - for better performance, the sp padding should be removed at each layer. Not sure the performance gap
 - [ ] **luffy/verl/verl/models/registry.py:21** - (sgm): HF may supported more than listed here, we should add more after testing
